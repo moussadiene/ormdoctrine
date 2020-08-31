@@ -1,0 +1,247 @@
+/** Mes Outils pour le css **/
+body{
+    background: #791A1A;
+    margin: 20px;
+}
+/** souma sokhla wé flex **/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/** pour l'aligne des ecritures**/
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+/** pour l'aligne des flex**/
+.flex-center{
+    justify-content: center;
+}
+
+.flex-right{
+    justify-content: right;
+}
+
+.flex-left{
+    justify-content: left;
+}
+.flex-round{
+    justify-content: space-around;
+}
+.flex-row-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/** pour l'aligne des items **/
+.item-center{
+    align-items: center;
+}
+
+.item-right{
+    align-items: right;
+}
+
+.item-left{
+    align-items: left;
+}
+.plus-grand{
+    flex:1;
+}
+.bg-white{
+    background-color: #FFF;
+}
+.bg-red{
+    background-color: #791A1A;
+}
+
+#top{
+    height: 60px;
+    border-radius: 3px;
+}
+.padding{
+    padding: 7px;
+}
+
+#left{
+    height:  495px;
+    width: 250px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contain{
+    margin: 20px 0px 20px 20px;
+    border-radius: 3px;
+}
+
+.footer{
+    height: 30px;
+    border-radius: 3px;
+    padding-top: 3px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.title-banque{
+    font-size: 45px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px #791A1A;
+}
+.marge{
+    margin: 10px;
+}
+.info-user{
+    margin: 5px;
+}
+.trait{
+    height: 7px;
+    border: none;
+}
+.bg-grey{
+    background-color: rgb(155, 151, 151);
+}
+
+.icone{
+    width: 30px;
+}
+
+.site-bar a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.site-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+.site-bar li{
+    padding: 10px 0px 10px 50px;
+}
+
+li:hover, li a:hover{
+    background-color: #791A1A;
+    color: #FFF;
+}
+
+.btn{
+    margin: 4px 0px 0px 20px;
+    color : #FFF;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bolt{
+    font-weight: bold;
+}
+
+.item{
+    margin: 15px 35px 15px 35px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+}
+
+/**
+label[for="ok2"]{
+    margin: 100px;
+}**/
+
+.radio{
+    margin-left: 20px;
+}
+
+.active{
+    border: 3px solid;
+    border-color: #000;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+.input{
+    margin-left: 100px;
+}
+fieldset{
+    width: 350px;
+    margin: 0px 10px 0px 10px;
+}
+
+#valider{
+    padding: 5px 20px;
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search{
+    width: 20px;
+}
+
+.float-right{
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#contenue{
+    margin-left: 20px;
+}
+
+.color-white{
+    color: #FFF;
+}
+
+.form{
+    height: 200px ;
+}
+.ok{
+    flex: 1;
+    background-color: rgb(18, 63, 18);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 30px;
+
+}
+.bg-black{
+    background-color: black;}
+
+.bg-success{
+    background-color: green;
+}
+.bg-erreur{
+    background-color: red;
+}   
+.bg-erreur,.bg-success{
+    border-radius: 5px;
+    padding: 10px 100px;
+    color: white;
+}

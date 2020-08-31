@@ -1,0 +1,18 @@
+{
+  "name": "doctrine",
+  "version": "1.0.0",
+  "description": "tp orm avec doctrine PHP POO namespace",
+  "main": "index.js",
+  "scripts": {
+    "test": "alert(1)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/moussadiene/ormdoctrine.git"
+  },
+  "keywords": [
+    "ormdoctrine"
+  ],
+  "author": "moussa diene",
+  "license": "ISC"
+}
